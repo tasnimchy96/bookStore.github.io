@@ -28,12 +28,12 @@ function addBook(event) {
   event.target.reset();
 }
 
-// function removeBook(index) {
-//   books = books.filter((books, i) => i !== index);
-//   localStorage.setItem("books", JSON.stringify(books));
-//   displayBooks();
-// }
+function removeBook(index) {
+  books = books.filter((books, i) => i !== index);
+  localStorage.setItem("books", JSON.stringify(books));
+  displayBooks();
+}
 
-// document.getElementById("addBtn").addEventListener("click", addBook);
+document.getElementById("addBtn").addEventListener("click", addBook);
 
-// displayBooks();
+displayBooks();
