@@ -19,7 +19,7 @@
 - [:pray: Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# :book: [Portfolio]
+# :book: [Awesome Books]
 
 **[Awesome Books]** is a microverse project where we build a basic website that allows users to add/remove books from a list. We achieved that by using JavaScript objects and arrays. We also dynamically modified the DOM and add basic events.
 
