@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Awesome books</title>
-  <link rel="stylesheet" href="./bookStore.css">
-</head>
-<body>
-  <h1>Awesome Books</h1>
-    <div id="bookList"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome books</title>
+    <link rel="stylesheet" href="./bookStore.css" />
+  </head>
+  <body>
+    <h2>All awesome books</h2>
+    <table id="bookList"></table>
+    <hr />
+    <h2>Add a new book</h2>
     <form id="addForm">
-      <input type="text" placeholder="Text" id="title" required>
-      <br>
-      <input type="text" placeholder="Author" id="author" required>
-      <br>
+      <input type="text" placeholder="Title" id="title" required />
+      <input type="text" placeholder="Author" id="author" required />
       <button type="submit">Add</button>
     </form>
 
-  <script src="./bookStore.js"></script>
-</body>
+    <script src="./bookStore.js"></script>
+  </body>
 </html>
