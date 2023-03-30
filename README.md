@@ -34,10 +34,12 @@ HTML, CSS and Javascript
 
 ### Key Features
 
-- **[- Use Javascript, HTML & CSS linters]**
+- **[- Use Javascript, HTML & CSS linters.]**
 - **[- Build a basic website that allows users to add/remove books from a list.]**
 - **[- Used JavaScript objects and arrays.]**
 - **[- Dynamically modified the DOM and add basic events.]**
+- **[- Add table to put the new books inside.]**
+- **[- Use Javascript Classes.]**
 
 ## :computer: Getting Started
 
