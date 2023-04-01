@@ -1,7 +1,7 @@
-// function updateTime() {
-//   const dateTime = new Date();
-//   const dateTimeString = dateTime.toLocaleString();
-//   document.getElementById("date-time").textContent = dateTimeString;
-// }
+function updateTime() {
+  const dateTime = new Date();
+  const dateTimeString = dateTime.toLocaleString();
+  document.getElementById("date-time").textContent = dateTimeString;
+}
 
-// setInterval(updateTime, 1000);
+setInterval(updateTime, 1000);
