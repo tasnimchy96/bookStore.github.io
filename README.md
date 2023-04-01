@@ -40,6 +40,7 @@ HTML, CSS and Javascript
 - **[- Dynamically modified the DOM and add basic events.]**
 - **[- Add table to put the new books inside.]**
 - **[- Use Javascript Classes.]**
+- **[- Added real date and time.]**
 
 ## :computer: Getting Started
 
